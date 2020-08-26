@@ -1,0 +1,29 @@
+{
+  "name": "slack-clone",
+  "version": "1.0.0",
+  "description": "this a simple slack clone with node and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanbega/slack-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanbega/slack-clone/issues"
+  },
+  "homepage": "https://github.com/sanbega/slack-clone#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
